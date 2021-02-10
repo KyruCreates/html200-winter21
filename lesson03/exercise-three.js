@@ -3,4 +3,6 @@
 let arr = ['aglio e olio', 'bolognese', 'spaghetti', 'ravioli', 'fettuccine alfredo'];
 for(let i = 0; i < arr.length; i++) {
   console.log(arr.indexOf(arr[i]) + ', ' + arr[i]);
+  // alternatively, you can also have
+  // console.log(i+1, arr[i]); as this should be ordered 1, 2, 3, etc.
 }
