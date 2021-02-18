@@ -11,3 +11,15 @@ function numMultiply() {
   let num2 = prompt("Pick the second number");
   alert("The result is " + Number(num1*num2));
 }
+
+// Class Codealong
+/* const num = prompt("Enter a number: ");
+   const result = Number(num) * Number(num);
+   alert(result);
+
+   const num = prompt("Enter a number: ");
+   const num2 = prompt("Enter another number: ");
+   const result = Number(num) * Number(num2);
+   alert(result);
+
+*/

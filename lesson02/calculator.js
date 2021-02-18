@@ -1,3 +1,5 @@
+// Lesson 02 Assignment 1
+// The calculator will need 4 variables; use all the operators and console log the result of using the two variables. Mix and match the variables in the operators.
 let a = 1;
 let b = 2;
 let c = 3;

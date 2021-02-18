@@ -1,3 +1,6 @@
+// Lesson 02 Assignment 5 - Bonus
+// Write a program that prints out the values of a deck of cards.
+
 // creates a standard 52-card deck
 function deckBuilder() {
   const values = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", ];
