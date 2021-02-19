@@ -28,7 +28,7 @@ function bankAction() {
           alert('You cannot withdraw $' + action + '\nYour current balance is $' + currentBal);
         // BONUS: Create an alert if the user tries to withdraw an amount that would leave them with less than $300 in their account, asking them to confirm if they're sure.
         // BONUS: The user should receive a warning to protect against low balances.
-      } else if ((currentBal - Number(action)) < 300) {
+        } else if ((currentBal - Number(action)) < 300) {
           let tempBal = Number(action);
           action = prompt('You have less than $300 in your account\nAre you sure you want to withdraw?\n(Y / N)');
           if (action === 'y' || action === 'Y') {
